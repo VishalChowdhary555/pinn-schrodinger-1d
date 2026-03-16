@@ -164,26 +164,6 @@ src/
  plot_results.py  
 
 results/
-
----
-
-# Installation
-
-Clone the repository:
-
-git clone https://github.com/your-username/pinn-schrodinger-1d.git  
-cd pinn-schrodinger-1d
-
-Install dependencies:
-
-pip install -r requirements.txt
-
-Dependencies include:
-
-- numpy
-- matplotlib
-- torch
-
 ---
 
 # Running the Project
@@ -297,14 +277,6 @@ Quantum Applications
 - hydrogen atom PINN
 - quantum scattering
 - multi-particle wavefunctions
-
----
-
-# Example Resume Entry
-
-Physics-Informed Neural Network for Solving the Schrödinger Equation  
-
-Developed a PyTorch-based PINN to approximate eigenfunctions and eigenvalues of the 1D Schrödinger equation for multiple quantum potentials. The model leveraged automatic differentiation to enforce PDE residuals, normalization, and orthogonality constraints, producing accurate quantum wavefunctions and energy spectra without labeled training data.
 
 ---
 
